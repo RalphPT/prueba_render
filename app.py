@@ -8,7 +8,8 @@ from flask_swagger_ui import get_swaggerui_blueprint # solo para casos de no usa
 from flask_cors import CORS
 from os import environ
 from dotenv import load_dotenv # Utilizando variables de entorno, permite proteger y ocultar variables de configuracion o API KEYS o DATA SENSIBLE. EJEMPLO PARA QUE YA NO SE VEA LA CONEXIÓN A LA BD Y SE CREE UN .ENV EN ARCHIVO APARTE
-
+#gunicorn nos brinda un servidor wsgi para servidores o proyectos de python, básicamente para servidores de produccion
+#https://gunicorn.org/
 load_dotenv()
 
 SWAGGER_URL = '/api-docs' # <==||
