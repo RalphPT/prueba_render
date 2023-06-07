@@ -10,7 +10,6 @@ from os import environ
 from dotenv import load_dotenv # Utilizando variables de entorno, permite proteger y ocultar variables de configuracion o API KEYS o DATA SENSIBLE. EJEMPLO PARA QUE YA NO SE VEA LA CONEXIÓN A LA BD Y SE CREE UN .ENV EN ARCHIVO APARTE
 
 load_dotenv()
-print(environ)
 
 SWAGGER_URL = '/api-docs' # <==||
 API_URL = '/static/documentacion.json' # <==||
