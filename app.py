@@ -208,4 +208,4 @@ api.add_resource(TrabajadorController, '/api/trabajadores')
 # EL MISMO NOMBRE QUE DECLARE EN MI PARÁMETRO (DONDE MARCA LA FLECHA) DEBO DECLARAR EN MI RUTA
 api.add_resource(TrabajadorUnitarioController, '/api/trabajador/<int:id>') # id<========
 
-app.run(debug=True)
+# app.run(debug=True)
